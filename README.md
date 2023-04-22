@@ -3,6 +3,8 @@
 # WEB APP
 ## _E-COMMERCE-PHONES_
 
+![Imagen de la parte header de la pagina.](https://github.com/AgredaLuis/e-commerce-phones/blob/main/public/imagen-commerce-phone.png)
+
 
 This site was built using [GitHub Pages](https://pages.github.com/).
 
