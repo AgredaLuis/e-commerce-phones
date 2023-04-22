@@ -1,0 +1,89 @@
+:root {
+  /* para colores */
+  --mainBlue: #2a2a72;
+  --lightBlue: #009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+}
+
+body {
+  font-family: "Oswald", sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.text-blue{
+    color: var(--mainBlue);
+}
+
+.text-bright{
+    color: var(--lightBlue);
+}
+
+.btn-black{
+  background: transparent;
+  text-transform: capitalize;
+  font-size: 0.8rem !important;
+  color: var(--mainDark) !important;
+  border:0.1rem solid var(--mainDark) !important;
+
+}
+
+.btn-black:hover{
+  background: var(--mainDark) !important;
+  color: var(--mainWhite) !important;
+}
+
+ /* Bottoms */
+.button-container{
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  background: transparent;
+  border: 0.05rem solid var(--lightBlue);
+  color: var(--lightBlue);
+  border-radius: 0.5rem;
+  padding: 0,2rem 0.5rem;
+  cursor: pointer;
+  margin: 0.2rem 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.button-container:hover{
+  background: var(--lightBlue);
+  color: var(--mainBlue);
+}
+
+.button-containerTwo{
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  background: transparent;
+  border: 0.05rem solid var(--mainYellow);
+  color: var(--mainYellow);
+  border-radius: 0.5rem;
+  padding: 0,2rem 0.5rem;
+  cursor: pointer;
+  margin: 0.2rem 0.5rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.button-containerTwo:hover{
+  background: var(--mainYellow);
+  color: var(--mainBlue);
+}
+
+.cart-icon{
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
+}
+
+.basurita:hover{
+  background: var(--mainYellow);
+  color: var(--mainWhite);
+}

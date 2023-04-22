@@ -1,0 +1,23 @@
+.navbar {
+  background: var(--mainBlue) !important;
+  padding: 1.5rem !important;
+}
+
+.navbar-nav {
+  margin-left: 2rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between !important;
+}
+
+.nav-link{
+    color: var(--mainWhite) !important;
+    font-size: 1.2rem !important;
+    text-transform: capitalize;
+}
+
+.OurProducts:hover {
+  border-bottom: 0.1rem solid var(--mainWhite);
+}
