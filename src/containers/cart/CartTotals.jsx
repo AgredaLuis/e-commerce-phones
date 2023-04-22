@@ -50,6 +50,10 @@ const CartTotals = ({ cart }) => {
             <span className="text-title">total : </span>{" "}
             <strong>${total}</strong>
           </h5>
+
+          <button className="btn btn-outline-warning text-uppercase mb-3 px-5" type="button">
+            Paypal
+          </button>
         </div>
       </div>
     </div>
